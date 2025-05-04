@@ -1,4 +1,0 @@
-**bold**
-*italic*
-```hello ```
-
