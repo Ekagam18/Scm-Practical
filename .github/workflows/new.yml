@@ -1,0 +1,15 @@
+name: Welcome Workflow
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome User
+        run: |
+          echo "Welcome to the project!"
+
+
