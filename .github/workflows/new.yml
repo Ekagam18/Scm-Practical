@@ -2,13 +2,13 @@ name: Welcome Workflow
 
 on:
   pull_request:
-    types: [opened]
+    types: 
+     opened
 
 jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - name: Welcome User
-        run: |
-          echo "Welcome to the project!". We are excited to have you here. Happy coding!"
+      - name: Hello World
+        run: echo "Welcome to the project!". We are excited to have you here. Happy coding!"
 
