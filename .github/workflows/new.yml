@@ -10,6 +10,5 @@ jobs:
     steps:
       - name: Welcome User
         run: |
-          echo "Welcome to the project!"
-
+          echo "Welcome to the project!". We are excited to have you here. Happy coding!"
 
